@@ -12,4 +12,4 @@ jobs:
         docker build -t bayubernardino/uas-pccks:latest -f Dockerfile .
     
     - name: push to dockerhub
-      run: docker login -u ${{secrets.bayubernardino}} -p ${{secrets.dckr_pat_CMklyCi7OZ7l1vMUrwXIouIIVbA}} && docker push bayubernardino/uas-pccks:latest
+      run: docker login -u bayubernardino -p dckr_pat_CMklyCi7OZ7l1vMUrwXIouIIVbA && docker push bayubernardino/uas-pccks:latest
