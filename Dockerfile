@@ -1,8 +1,8 @@
 FROM nginx
 
-LABEL   MAINTENER="Nama anda di absensi" \
-        NIM="NIM anda" \
-        KELAS="Kode Kelas pada absensi"
+LABEL   MAINTENER="Bernardino Bayu Setyawan" \
+        NIM="1122140127" \
+        KELAS="TI KS 20"
 
 COPY html /usr/share/nginx/html
 
